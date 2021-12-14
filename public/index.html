@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <title>API Hubara Shop</title>
+  </head>
+
+  <body>
+    <!-- Resources -->
+    <h2>Resources</h2>
+    <p>rest API Hubara Shop with a set of 2 common resources:</p>
+    <div id="idProduct">
+      <a href="/product">/product</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <div id="idCart">
+      <a href="/product/cart">/product/cart</a
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+
+    <!-- Routes -->
+    <h2>Routes</h2>
+    <p>All HTTP methods are supported.</p>
+
+    <div>
+      GET &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/product">/product</a>
+    </div>
+
+    <div>
+      GET &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/product/cart">/product/cart</a>
+    </div>
+
+    <div>
+      GET &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/product/613e6d4a271d77bd0541c99d">/product/id</a>
+    </div>
+
+    <div>POST &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /product/id</div>
+    <div>PUT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /product/id</div>
+    <div>PATCH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /product/id</div>
+    <div>DELETE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /product/id</div>
+    <div>DELETE &nbsp;&nbsp;&nbsp;&nbsp; /product/cart</div>
+    <script src="javascripts/script.js"></script>
+  </body>
+</html>
